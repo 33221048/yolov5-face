@@ -1,25 +1,25 @@
+## Just for research. The codes is'nt mine, it's https://github.com/deepcam-cn/yolov5-face
+
 ## What's New
 
 **2024.04** [ncnn-android-yolov8-face](https://github.com/derronqi/ncnn-android-yolov8-face)
 
-**2023.04** [yolov8-face](https://github.com/derronqi/yolov8-face) (🔥🔥🔥↑) 
+**2023.04** [yolov8-face](https://github.com/derronqi/yolov8-face) (🔥🔥🔥↑)
 
 **2022.10** [yolov7-face](https://github.com/derronqi/yolov7-face) (🔥🔥🔥↑)
 
-
 **2022.8**: yolov7
 
-| Method           |  Test Size | Easy  | Medium | Hard  | FLOPs (B) @640 | 
-| -----------------| ---------- | ----- | ------ | ----- | -------------- | 
-| yolov7-lite-t    | 640        | 88.7  | 85.2   | 71.5  |  0.8           |
-| yolov7-lite-s    | 640        | 92.7  | 89.9   | 78.5  |  3.0           | 
-| yolov7-tiny      | 640        | 94.7  | 92.6   | 82.1  |  13.2          | 
-| yolov7s          | 640        | 94.8  | 93.1   | 85.2  |  16.8          | 
-| yolov7           | 640        | 96.9  | 95.5   | 88.0  |  103.4         | 
-| yolov7+TTA       | 640        | 97.2  | 95.8   | 87.7  |  103.4         | 
+| Method        | Test Size | Easy | Medium | Hard | FLOPs (B) @640 |
+| ------------- | --------- | ---- | ------ | ---- | -------------- |
+| yolov7-lite-t | 640       | 88.7 | 85.2   | 71.5 | 0.8            |
+| yolov7-lite-s | 640       | 92.7 | 89.9   | 78.5 | 3.0            |
+| yolov7-tiny   | 640       | 94.7 | 92.6   | 82.1 | 13.2           |
+| yolov7s       | 640       | 94.8 | 93.1   | 85.2 | 16.8           |
+| yolov7        | 640       | 96.9 | 95.5   | 88.0 | 103.4          |
+| yolov7+TTA    | 640       | 97.2 | 95.8   | 87.7 | 103.4          |
 
-
-**2021.12**: Yolov5-face to TensorRT. 
+**2021.12**: Yolov5-face to TensorRT.
 
 |   Backbone   | Pytorch(ms) | TensorRT_FP16(ms) |
 | :----------: | :---------: | :---------------: |
@@ -29,23 +29,22 @@
 | yolov5m-face |     9.9     |        3.3        |
 | yolov5l-face |    15.9     |        4.5        |
 
-> Pytorch=1.10.0+cu102    TensorRT=8.2.0.6   Hardware=rtx2080ti
+> Pytorch=1.10.0+cu102 TensorRT=8.2.0.6 Hardware=rtx2080ti
 
 **2021.11**: BlazeFace
 
-| Method               | multi scale | Easy  | Medium | Hard  | Model Size(MB) | Link  |
-| -------------------- | ----------- | ----- | ------ | ----- | -------------- | ----- |
-| BlazeFace            | Ture        | 88.5  | 85.5   | 73.1  | 0.472          | https://github.com/PaddlePaddle/PaddleDetection |
-| BlazeFace-FPN-SSH    | Ture        | 90.7  | 88.3   | 79.3  | 0.479          | https://github.com/PaddlePaddle/PaddleDetection |
-| yolov5-blazeface     | True        | 90.4  | 88.7   | 78.0  | 0.493          | https://pan.baidu.com/s/1RHp8wa615OuDVhsO-qrMpQ pwd:r3v3 https://drive.google.com/file/d/1adi6ke2vCLQFcpbvFqWo_J4wZIfPqSMG|
-| yolov5-blazeface-fpn | True        | 90.8  | 89.4   | 79.1  | 0.493          |  -    |
-
+| Method               | multi scale | Easy | Medium | Hard | Model Size(MB) | Link                                                                                                                       |
+| -------------------- | ----------- | ---- | ------ | ---- | -------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| BlazeFace            | Ture        | 88.5 | 85.5   | 73.1 | 0.472          | https://github.com/PaddlePaddle/PaddleDetection                                                                            |
+| BlazeFace-FPN-SSH    | Ture        | 90.7 | 88.3   | 79.3 | 0.479          | https://github.com/PaddlePaddle/PaddleDetection                                                                            |
+| yolov5-blazeface     | True        | 90.4 | 88.7   | 78.0 | 0.493          | https://pan.baidu.com/s/1RHp8wa615OuDVhsO-qrMpQ pwd:r3v3 https://drive.google.com/file/d/1adi6ke2vCLQFcpbvFqWo_J4wZIfPqSMG |
+| yolov5-blazeface-fpn | True        | 90.8 | 89.4   | 79.1 | 0.493          | -                                                                                                                          |
 
 **2021.08**: Add new training dataset [Multi-Task-Facial](https://drive.google.com/file/d/1Pwd6ga06cDjeOX20RSC1KWiT888Q9IpM/view?usp=sharing),improve large face detection.
-| Method               | Easy  | Medium | Hard  | 
+| Method | Easy | Medium | Hard |
 | -------------------- | ----- | ------ | ----- |
-| ***YOLOv5s***        | 94.56 | 92.92  | 83.84 |
-| ***YOLOv5m***        | 95.46 | 93.87  | 85.54 |
+| **_YOLOv5s_** | 94.56 | 92.92 | 83.84 |
+| **_YOLOv5m_** | 95.46 | 93.87 | 85.54 |
 
 **QQ Group**: 1164802745
 
@@ -59,7 +58,7 @@ Yolov5-face is a real-time,high accuracy face detection.
 
 Single Scale Inference on VGA resolution（max side is equal to 640 and scale).
 
-***Large family***
+**_Large family_**
 
 | Method              | Backbone       | Easy  | Medium | Hard  | \#Params(M) | \#Flops(G) |
 | :------------------ | -------------- | ----- | ------ | ----- | ----------- | ---------- |
@@ -70,15 +69,14 @@ Single Scale Inference on VGA resolution（max side is equal to 640 and scale).
 | SCRFD-34GF(Arxiv21) | Bottleneck Res | 96.06 | 94.92  | 85.29 | 9.80        | 34.13      |
 | SCRFD-10GF(Arxiv21) | Basic Res      | 95.16 | 93.87  | 83.05 | 3.86        | 9.98       |
 | -                   | -              | -     | -      | -     | -           | -          |
-| ***YOLOv5s***       | CSPNet         | 94.67 | 92.75  | 83.03 | 7.075       | 5.751      |
+| **_YOLOv5s_**       | CSPNet         | 94.67 | 92.75  | 83.03 | 7.075       | 5.751      |
 | **YOLOv5s6**        | CSPNet         | 95.48 | 93.66  | 82.8  | 12.386      | 6.280      |
-| ***YOLOv5m***       | CSPNet         | 95.30 | 93.76  | 85.28 | 21.063      | 18.146     |
+| **_YOLOv5m_**       | CSPNet         | 95.30 | 93.76  | 85.28 | 21.063      | 18.146     |
 | **YOLOv5m6**        | CSPNet         | 95.66 | 94.1   | 85.2  | 35.485      | 19.773     |
-| ***YOLOv5l***       | CSPNet         | 95.78 | 94.30  | 86.13 | 46.627      | 41.607     |
-| ***YOLOv5l6***      | CSPNet         | 96.38 | 94.90  | 85.88 | 76.674      | 45.279     |
+| **_YOLOv5l_**       | CSPNet         | 95.78 | 94.30  | 86.13 | 46.627      | 41.607     |
+| **_YOLOv5l6_**      | CSPNet         | 96.38 | 94.90  | 85.88 | 76.674      | 45.279     |
 
-
-***Small family***
+**_Small family_**
 
 | Method               | Backbone        | Easy  | Medium | Hard  | \#Params(M) | \#Flops(G) |
 | -------------------- | --------------- | ----- | ------ | ----- | ----------- | ---------- |
@@ -87,20 +85,18 @@ Single Scale Inference on VGA resolution（max side is equal to 640 and scale).
 | SCRFD-0.5GF(Arxiv21) | Depth-wise Conv | 90.57 | 88.12  | 68.51 | 0.57        | 0.508      |
 | SCRFD-2.5GF(Arxiv21) | Basic Res       | 93.78 | 92.16  | 77.87 | 0.67        | 2.53       |
 | -                    | -               | -     | -      | -     | -           | -          |
-| ***YOLOv5n***        | ShuffleNetv2    | 93.74 | 91.54  | 80.32 | 1.726       | 2.111      |
-| ***YOLOv5n-0.5***    | ShuffleNetv2    | 90.76 | 88.12  | 73.82 | 0.447       | 0.571      |
-
-
+| **_YOLOv5n_**        | ShuffleNetv2    | 93.74 | 91.54  | 80.32 | 1.726       | 2.111      |
+| **_YOLOv5n-0.5_**    | ShuffleNetv2    | 90.76 | 88.12  | 73.82 | 0.447       | 0.571      |
 
 ## Pretrained-Models
 
-| Name        | Easy  | Medium | Hard  | FLOPs(G) | Params(M) | Link                                                         |
-| ----------- | ----- | ------ | ----- | -------- | --------- | ------------------------------------------------------------ |
-| yolov5n-0.5 | 90.76 | 88.12  | 73.82 | 0.571    | 0.447     | Link: https://pan.baidu.com/s/1UgiKwzFq5NXI2y-Zui1kiA  pwd: s5ow, https://drive.google.com/file/d/1XJ8w55Y9Po7Y5WP4X1Kg1a77ok2tL_KY/view?usp=sharing |
-| yolov5n     | 93.61 | 91.52  | 80.53 | 2.111    | 1.726     | Link: https://pan.baidu.com/s/1xsYns6cyB84aPDgXB7sNDQ  pwd: lw9j,https://drive.google.com/file/d/18oenL6tjFkdR1f5IgpYeQfDFqU4w3jEr/view?usp=sharing |
-| yolov5s     | 94.33 | 92.61  | 83.15 | 5.751    | 7.075     | Link: https://pan.baidu.com/s/1fyzLxZYx7Ja1_PCIWRhxbw  Link: eq0q,https://drive.google.com/file/d/1zxaHeLDyID9YU4-hqK7KNepXIwbTkRIO/view?usp=sharing |
-| yolov5m     | 95.30 | 93.76  | 85.28 | 18.146   | 21.063    | Link: https://pan.baidu.com/s/1oePvd2K6R4-gT0g7EERmdQ  pwd: jmtk, https://drive.google.com/file/d/1Sx-KEGXSxvPMS35JhzQKeRBiqC98VDDI |
-| yolov5l     | 95.78 | 94.30  | 86.13 | 41.607   | 46.627    | Link: https://pan.baidu.com/s/11l4qSEgA2-c7e8lpRt8iFw  pwd: 0mq7, https://drive.google.com/file/d/16F-3AjdQBn9p3nMhStUxfDNAE_1bOF_r |
+| Name        | Easy  | Medium | Hard  | FLOPs(G) | Params(M) | Link                                                                                                                                                |
+| ----------- | ----- | ------ | ----- | -------- | --------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| yolov5n-0.5 | 90.76 | 88.12  | 73.82 | 0.571    | 0.447     | Link: https://pan.baidu.com/s/1UgiKwzFq5NXI2y-Zui1kiA pwd: s5ow, https://drive.google.com/file/d/1XJ8w55Y9Po7Y5WP4X1Kg1a77ok2tL_KY/view?usp=sharing |
+| yolov5n     | 93.61 | 91.52  | 80.53 | 2.111    | 1.726     | Link: https://pan.baidu.com/s/1xsYns6cyB84aPDgXB7sNDQ pwd: lw9j,https://drive.google.com/file/d/18oenL6tjFkdR1f5IgpYeQfDFqU4w3jEr/view?usp=sharing  |
+| yolov5s     | 94.33 | 92.61  | 83.15 | 5.751    | 7.075     | Link: https://pan.baidu.com/s/1fyzLxZYx7Ja1_PCIWRhxbw Link: eq0q,https://drive.google.com/file/d/1zxaHeLDyID9YU4-hqK7KNepXIwbTkRIO/view?usp=sharing |
+| yolov5m     | 95.30 | 93.76  | 85.28 | 18.146   | 21.063    | Link: https://pan.baidu.com/s/1oePvd2K6R4-gT0g7EERmdQ pwd: jmtk, https://drive.google.com/file/d/1Sx-KEGXSxvPMS35JhzQKeRBiqC98VDDI                  |
+| yolov5l     | 95.78 | 94.30  | 86.13 | 41.607   | 46.627    | Link: https://pan.baidu.com/s/11l4qSEgA2-c7e8lpRt8iFw pwd: 0mq7, https://drive.google.com/file/d/16F-3AjdQBn9p3nMhStUxfDNAE_1bOF_r                  |
 
 ## Data preparation
 
@@ -113,15 +109,11 @@ python3 train2yolo.py /path/to/original/widerface/train [/path/to/save/widerface
 python3 val2yolo.py  /path/to/original/widerface [/path/to/save/widerface/val]
 ```
 
-
-
 ## Training
 
 ```shell
 CUDA_VISIBLE_DEVICES="0,1,2,3" python3 train.py --data data/widerface.yaml --cfg models/yolov5s.yaml --weights 'pretrained models'
 ```
-
-
 
 ## WIDERFace Evaluation
 
@@ -136,12 +128,11 @@ python3 evaluation.py
 
 ![](data/images/result.jpg)
 
-#### Landmark Visulization 
+#### Landmark Visulization
 
 ![](data/images/landmark.png)
-First row: RetinaFace, 2nd row: YOLOv5m-Face 
-**YOLO5Face was used in the 3rd place standard face recogntion track of the [ICCV2021 Masked Face Recognition Challenge](https://www.face-benchmark.org/challenge.html).** 
-
+First row: RetinaFace, 2nd row: YOLOv5m-Face
+**YOLO5Face was used in the 3rd place standard face recogntion track of the [ICCV2021 Masked Face Recognition Challenge](https://www.face-benchmark.org/challenge.html).**
 
 #### AXera demo
 
@@ -177,9 +168,9 @@ https://github.com/biubug6/Pytorch_Retinaface
 
 https://github.com/deepinsight/insightface
 
+#### Citation
 
-#### Citation 
-- If you think this work is useful for you, please cite 
+- If you think this work is useful for you, please cite
 
       @article{YOLO5Face,
       title = {YOLO5Face: Why Reinventing a Face Detector},
@@ -187,4 +178,3 @@ https://github.com/deepinsight/insightface
       booktitle = {ArXiv preprint ArXiv:2105.12931},
       year = {2021}
       }
-
